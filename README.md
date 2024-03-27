@@ -1,1 +1,1 @@
-# SmFm
+# Smartfarm과정
