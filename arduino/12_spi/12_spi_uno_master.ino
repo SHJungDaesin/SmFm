@@ -14,4 +14,5 @@ void loop() {
   delay(5);
   digitalWrite(SS, HIGH);
   Serial.print(A);
+  delay(100);
 }

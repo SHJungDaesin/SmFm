@@ -21,7 +21,7 @@ int B = 0;
 ISR(SPI_STC_vect){
   slaveReceived = SPDR;
   if (slaveReceived==0) 
-    Serial.println("무슨 데이터???");
+    Serial.println("received 0");
   
   SPDR = B; //
 }
